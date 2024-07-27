@@ -1,6 +1,13 @@
 from model.Deportivo import Deportivo
 from model.Furgoneta import Furgoneta
 from model.Miniband import Miniband
+from model.Futbolista import Futbolista
+
+#Creando el objeto a partir de la instancia 
+objFutbolista = Futbolista(1, "Paolo", "Guerrero", 40, 99, "Delantero")
+print(objFutbolista.partidoFutbol())
+
+
 
 objDeportivo = Deportivo("Ferrari", "550", 
                          "2020", 320)
